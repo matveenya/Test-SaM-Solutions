@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Inter:wght@300;400;700;800&family=Montserrat:ital,wght@0,300;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+    background: #000;
+    padding: 5px 25px;
+}
+
+header .logo_picture{
+    float: left;
+}
+
+header .logo_name{
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    margin: 60px;
+}
+
+.header_info{
+    position: relative;
+}
+
+.header_info ul{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+
+.info{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.info a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.info a:hover{
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+    background: #000;
+    padding: 5px 25px;
+}
+
+footer .footer_picture{
+    float: left;
+}
+
+footer .footer_name{
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    margin: 60px;
+}
+
+.info_social{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.footer_info{
+    position: relative;
+}
+
+.footer_info ul{
+    position: absolute;
+    top: 45%;
+    right: 20%;
+}
+
+footer .info_social a:hover{
+    opacity: 0.9;
+}
+
+.info_social img:hover{
+	background:#ca5252;
+	border-radius: 50%;
+}
+
+@media screen and (max-width: 1080px) {
+    .header{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        overflow: hidden;
+        background: #000;
+        padding: 5px 10px;
+    } 
+    .header_info ul{
+        position: absolute;
+        top: 45%;
+        right: 10%;
+    }
+    .header_logo{
+        position: relative;
+    }
+    .info{
+        list-style: none;
+        display: inline;
+        margin-right: 10px;
+        font-size: 20px;
+    } 
+
+}
+
+@media screen and (max-width: 939px) {
+    .header{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        overflow: hidden;
+        background: #000;
+        padding: 5px 10px;
+    } 
+    .header_info ul{
+        position: absolute;
+        top: 45%;
+        right: 10%;
+    }
+    .header_logo{
+        position: relative;
+    }
+    .info{
+        list-style: none;
+        display: inline;
+        margin-right: 10px;
+        font-size: 20px;
+    }  
+    header .logo_picture,footer .footer_picture{
+        float: left;
+        width: 40%;
+        height: 70%;
+    } 
+    header .logo_picture{
+        position: absolute;
+        top: 15%;
+    }
+    header .logo_name,footer .footer_name{
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+        margin: 60px 110px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        overflow: hidden;
+        background: #000;
+        padding: 5px 10px;
+        position: relative;
+    }
+    .footer_logo{
+        position: relative;
+    }
+    footer .footer_picture{
+        position: absolute;
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        overflow: hidden;
+        background: #000;
+        padding: 5px 10px;
+    } 
+    .header_info ul{
+        position: absolute;
+        top: 45%;
+        right: 10%;
+    }
+    .header_logo{
+        position: relative;
+    }
+    .info{
+        list-style: none;
+        display: inline;
+        margin-right: 10px;
+        font-size: 20px;
+    }  
+    header .logo_picture,footer .footer_picture{
+        float: left;
+        width: 40%;
+        height: 70%;
+    } 
+    header .logo_picture{
+        position: absolute;
+        top: 15%;
+    }
+    header .logo_name,footer .footer_name{
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+        margin: 60px 80px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        overflow: hidden;
+        background: #000;
+        padding: 5px 10px;
+        position: relative;
+    }
+    .footer_info ul{
+        position: absolute;
+        top: 45%;
+        right: 10%;
+    }
+    .footer_logo{
+        position: relative;
+    }
+    footer .footer_picture{
+        position: absolute;
+        bottom: 15%;
+    } 
+    .info_social{
+        list-style: none;
+        display: inline;
+        margin-right: 20px;
+        font-size: 20px;
+    }  
+}

@@ -1,0 +1,23 @@
+p,main h1{
+    margin: 20px 150px;
+    text-align: center;
+}
+
+main img{
+    width: 100%;
+}
+
+.sam-solutions img{
+    margin-left: 8.5%;
+}
+
+table{
+    padding: 40px 150px;
+}
+td{
+    padding: 20px;
+}
+
+.weight{
+    font-weight: 900;
+}
